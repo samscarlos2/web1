@@ -1,0 +1,359 @@
+/* body{
+    background-color: black;
+} */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(68, 23, 23);
+}
+
+.head img{
+    margin: 10px;
+    margin-left: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin: 10px;
+}
+nav div a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.write-up{
+    margin-top: 40px;
+}
+.write-up h1{
+    margin: 30px;
+    color: rgb(199, 45, 45);
+}
+.write-up p{
+    margin: 30px;
+    color: rgb(87, 82, 82);
+}
+.write-up p b{
+    color: black;
+}
+.btn{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    background: rgb(68, 23, 23);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin: 5px;
+    margin-right: 120px;
+    width: 120px;
+    height: 30px;
+}
+.b button{
+    background: rgb(216, 52, 52);
+    margin: 5px;
+    width: 170px;
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+}
+
+.image img{
+    height: 450px;
+    border-radius: 5px;
+}
+
+.service{
+    background: rgb(236, 224, 224);
+    height: 570px;
+    border: 1px solid transparent;
+}
+.service h1{
+    text-align: center;
+    color: rgb(216, 52, 52);
+}
+.serv{
+    display: flex;
+    justify-content: center;
+}
+.icon1{
+    width: 320px;
+    height: 150px;
+    background: white;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.icon1 h2,p{
+    text-align: center;
+}
+.icon2{
+    width: 320px;
+    height: 150px;
+    background: white;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.icon2 h2,p{
+    text-align: center;
+}
+.icon3{
+    width: 320px;
+    height: 150px;
+    background: white;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.icon3 h2,p{
+    text-align: center;
+}
+.icon4{
+    width: 320px;
+    height: 150px;
+    background: white;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.icon4 h2,p{
+    text-align: center;
+}
+.icon5{
+    width: 320px;
+    height: 150px;
+    background: white;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.icon5 h2,p{
+    text-align: center;
+}
+.icon6{
+    width: 320px;
+    height: 150px;
+    background: white;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.icon6 h2,p{
+    text-align: center;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn2 button{
+    width: 170px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: rgb(216, 52, 52);
+}
+.btn2 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.hour h1{
+    color: rgb(199, 45, 45);
+}
+.hour h1, p{
+    text-align: center;
+}
+.days{
+    display: flex;
+    justify-content: center;
+}
+.m{
+    margin: 20px;
+    margin-right: 40px;
+}
+.m h3{
+    color: rgb(216, 52, 52);
+}
+.t{
+    margin: 20px;
+    margin-right: 40px;
+}
+.t h3{
+    color: rgb(216, 52, 52);
+}
+.w{
+    margin: 20px;
+    margin-right: 40px;
+}
+.w h3{
+    color: rgb(216, 52, 52);
+}
+.th{
+    margin: 20px;
+    margin-right: 40px;
+}
+.th h3{
+    color: rgb(216, 52, 52);
+}
+.f{
+    margin: 20px;
+    margin-right: 40px;
+}
+.f h3{
+    color: rgb(216, 52, 52);
+}
+.s{
+    margin: 20px;
+    margin-right: 40px;
+}
+.s h3{
+    color: rgb(216, 52, 52);
+}
+.su{
+    margin: 20px;
+    margin-right: 40px;
+}
+.su h3{
+    color: rgb(216, 52, 52);
+}
+
+.pricing{
+    background: rgb(236, 224, 224);
+    height: 550px;
+    border: 1px solid transparent;
+}
+.pricing h1{
+    text-align: center;
+    color: rgb(199, 45, 45);
+}
+.pric{
+    display: flex;
+    justify-content: center;
+}
+.pri1{
+    margin: 20px;
+    margin-right: 40px;
+}
+.pri1 h2{
+    color: rgb(199, 45, 45);
+}
+.pri2{
+    margin: 20px;
+    margin-left: 40px;
+}
+.pri2 h2{
+    color: rgb(199, 45, 45);
+}
+.pri3{
+    margin: 20px;
+    margin-right: 40px;
+}
+.pri3 h2{
+    color: rgb(199, 45, 45);
+}
+.pri4{
+    margin: 20px;
+    margin-left: 40px;
+}
+.pri4 h2{
+    color: rgb(199, 45, 45);
+}
+.pri5{
+    margin: 20px;
+    margin-right: 40px;
+}
+.pri5 h2{
+    color: rgb(199, 45, 45);
+}
+.pri6{
+    margin: 20px;
+    margin-left: 40px;
+}
+.pri6 h2{
+    color: rgb(199, 45, 45);
+}
+
+.book{
+    background: rgb(184, 166, 166);
+    height: 570px;
+    border: 1px solid transparent;
+}
+.book h1, p{
+    text-align: center;
+}
+.book h1{
+    color: rgb(199, 45, 45);
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.fm1{
+   margin: 10px;
+}
+.fm1 input{
+    margin: 10px;
+    width: 270px;
+    height: 27px;
+    padding: 0px 0px 0px 10px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.fm2{
+    margin: 10px;
+ }
+ .fm2 input{
+     margin: 10px;
+     width: 275px;
+     height: 27px;
+     padding: 0px 0px 0px 10px;
+     border: 1px solid transparent;
+     border-radius: 2px;
+ }
+ .fm3{
+    margin: 10px;
+ }
+ .fm3 input{
+     margin: 10px;
+     width: 279px;
+     height: 27px;
+     padding: 0px 0px 0px 10px;
+     border: 1px solid transparent;
+     border-radius: 2px;
+ }
+.btn3{
+    display: flex;
+    justify-content: center;
+}
+.btn3 button{
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: rgb(216, 52, 52);
+}
+.btn3 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background: rgb(68, 23, 23);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: white;
+}
